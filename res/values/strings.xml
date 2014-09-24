@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocalYou</string>
+    <string name="action_search">Suche</string>
+	<string name="action_overflow">oveflow</string>
+	<string name="tab1_name">aktuelle Beiträge</string>
+	<string name="tab2_name">Archiv</string>
+	<string name="tab3_name">Aufträge</string>
+	<string name="button_send">Senden</string>
+	<string name="hello_world">Hallo</string>
+	<string name="Button_Beitrag">Neuer Beiträge</string>
+	
+	
+</resources>
