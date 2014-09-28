@@ -17,4 +17,7 @@ public class AktBeitraegeFragment extends Fragment {
 		
 		return rootView;
 	}
+		
 }
+
+

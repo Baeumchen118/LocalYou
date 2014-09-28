@@ -7,6 +7,8 @@ import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class MainActivity extends FragmentActivity implements
 		ActionBar.TabListener {
@@ -57,8 +59,10 @@ public class MainActivity extends FragmentActivity implements
 			public void onPageScrollStateChanged(int arg0) {
 			}
 		});
+		
 	}
-
+	
+	
 	@Override
 	public void onTabReselected(Tab tab, FragmentTransaction ft) {
 	}
@@ -72,6 +76,28 @@ public class MainActivity extends FragmentActivity implements
 
 	@Override
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+		
+		ListView listView1 = (ListView) findViewById(R.id.listView1);
+		Product[] items = {
+				
+				new Product (11, "LocalYou - Erfolgreiches Studentenprojekt aus Mittweida", 2),
+	            new Product(1, "Milk", 21.50),
+	            new Product(2, "Butter", 15.99),
+	            new Product(3, "Yogurt", 14.90),
+	            new Product(4, "Toothpaste", 7.99),
+	            new Product(5, "Ice Cream", 10.00),
+	            new Product(6, "Milk", 21.50),
+	            new Product(7, "Butter", 15.99),
+	            new Product(8, "Yogurt", 14.90),
+	            new Product(9, "Toothpaste", 7.99),
+	            new Product(10, "Ice Cream", 10.00),
+	        };
+	       
+	        ArrayAdapter<Product> adapter = new ArrayAdapter<Product>(this,
+	                    android.R.layout.simple_list_item_1, items);
+       
+        listView1.setAdapter(adapter);
+		
 	}
 
 }
