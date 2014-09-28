@@ -65,7 +65,5 @@ proguard/
 *.log
 *.log.*
 *.sig
-pkg/
-src/
 
 

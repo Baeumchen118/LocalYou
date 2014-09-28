@@ -9,7 +9,8 @@
 	<string name="tab3_name">Aufträge</string>
 	<string name="button_send">Senden</string>
 	<string name="hello_world">Hallo</string>
-	<string name="Button_Beitrag">Neuer Beiträge</string>
+	<string name="Button_Beitrag">Neuer Beitrag</string>
+	<string name="letzte_beitraege">letzte Beiträge</string>
 	
 	
 </resources>
