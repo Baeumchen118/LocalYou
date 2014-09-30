@@ -16,6 +16,8 @@ public class AktBeitraegeFragment extends Fragment {
 		View rootView = inflater.inflate(R.layout.fragment_aktbeitraege, container, false);
 		
 		return rootView;
+		
+
 	}
 		
 }

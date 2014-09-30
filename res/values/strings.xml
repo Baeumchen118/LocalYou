@@ -3,14 +3,19 @@
 
     <string name="app_name">LocalYou</string>
     <string name="action_search">Suche</string>
-	<string name="action_overflow">oveflow</string>
-	<string name="tab1_name">aktuelle Beiträge</string>
-	<string name="tab2_name">Archiv</string>
-	<string name="tab3_name">Aufträge</string>
-	<string name="button_send">Senden</string>
-	<string name="hello_world">Hallo</string>
-	<string name="Button_Beitrag">Neuer Beitrag</string>
-	<string name="letzte_beitraege">letzte Beiträge</string>
-	
-	
+    <string name="action_overflow">oveflow</string>
+    <string name="tab1_name">aktuelle Beiträge</string>
+    <string name="tab2_name">Archiv</string>
+    <string name="tab3_name">Aufträge</string>
+    <string name="button_send">Senden</string>
+    <string name="hello_world">Hallo</string>
+    <string name="Button_Beitrag">Neuer Beitrag</string>
+    <string name="letzte_beitraege">letzte Beiträge</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnlogin">Einloggen</string>
+    <string name="etEmail">Email</string>
+    <string name="etPasswort">Passwort</string>
+    <string name="menu">BlaBlub</string>
+
 </resources>
