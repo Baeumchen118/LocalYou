@@ -17,5 +17,6 @@
     <string name="etEmail">Email</string>
     <string name="etPasswort">Passwort</string>
     <string name="menu">BlaBlub</string>
+    <string name="Hint_Email">Gib bitte deine E-Mail Adresse ein</string>
 
 </resources>

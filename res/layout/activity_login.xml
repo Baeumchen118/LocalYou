@@ -24,11 +24,12 @@
         android:layout_above="@+id/editText2"
         android:layout_centerHorizontal="true"
         android:ems="10"
+        android:hint="@string/Hint_Email"
         android:inputType="text"
         android:text="@string/etEmail" />
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/iv_img_Beitraege"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

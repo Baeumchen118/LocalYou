@@ -89,28 +89,4 @@ public class MainActivity extends FragmentActivity {
 		
 		
 	}
-	
-
-	
-	
-//Product[] items = {
-//			
-//			new Product(1, "Milk", 21.50),
-//            new Product(2, "Butter", 15.99),
-//            new Product(3, "Yogurt", 14.90),
-//            new Product(4, "Toothpaste", 7.99),
-//            new Product(5, "Ice Cream", 10.00),
-//            new Product(6, "Milk", 21.50),
-//            new Product(7, "Butter", 15.99),
-//            new Product(8, "Yogurt", 14.90),
-//            new Product(9, "Toothpaste", 7.99),
-//            new Product(10, "Ice Cream", 10.00),
-//        };
-//
-//ListView lv = (ListView) findViewById(R.id.listView1);
-//
-//ArrayAdapter<Product> adapter = new ArrayAdapter<Product>(this, android.R.layout.simple_list_item_1, items);
-//
-//lv.setAdapter(adapter);
-
 }

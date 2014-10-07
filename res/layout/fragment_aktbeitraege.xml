@@ -18,7 +18,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
-            android:text="@string/Button_Beitrag" />
+            android:text="@string/Button_Beitrag"
+            android:textSize="24sp" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -30,8 +32,8 @@
 
         <EditText
             android:id="@+id/editText1"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:enabled="false"
             android:inputType="text"
@@ -52,45 +54,7 @@
         android:layout_weight="2"
         android:orientation="vertical" >
 
-        <!-- <LinearLayout
-            android:id="@+id/LinearLayout2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#CECECE"
-            android:orientation="horizontal" >
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#CECECE"
-            android:orientation="horizontal" >
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#CECECE"
-            android:orientation="horizontal" >
-            
-            </LinearLayout>
-             -->
-
-			<ListView
+        <ListView
 			    android:id="@+id/listView1"
 			    android:layout_width="fill_parent"
 			    android:layout_height="fill_parent"
